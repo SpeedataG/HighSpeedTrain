@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/timg"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+
+    <Button
+        android:id="@+id/btn_asset"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_enable_green"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:text="资产管理"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_enable_green"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:text="巡检"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btn_help"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_enable_green"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:text="辅助决策"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>
